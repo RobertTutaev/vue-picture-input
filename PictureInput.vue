@@ -314,7 +314,7 @@ export default {
           if (prefill) {
             this.$emit('prefill')
           } else {
-            this.$emit('change', this.image)
+            this.$emit('change', this.file)
           }
           this.imageObject = new Image()
           this.imageObject.onload = () => {
