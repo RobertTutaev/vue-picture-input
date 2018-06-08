@@ -1,14 +1,10 @@
 {
   "name": "vue-picture-input",
-  "version": "2.1.6",
+  "version": "1.0.0",
   "description": "Mobile-friendly picture file input component with image preview and drag and drop.",
   "main": "PictureInput.vue",
   "scripts": {
     "test": "jest"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/alessiomaffeis/vue-picture-input.git"
   },
   "keywords": [
     "VueJs",
@@ -19,12 +15,12 @@
     "form",
     "upload"
   ],
-  "author": "alessio@maffe.is",
+  "author": "rob_t@mail.ru",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/alessiomaffeis/vue-picture-input/issues"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobertTutaev/vue-picture-input.git"
   },
-  "homepage": "https://github.com/alessiomaffeis/vue-picture-input",
   "devDependencies": {
     "@vue/test-utils": "^1.0.0-beta.12",
     "babel-core": "^6.26.0",
