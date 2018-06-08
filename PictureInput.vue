@@ -296,7 +296,7 @@ export default {
         if (prefill) {
           this.$emit('prefill')
         } else {
-          this.$emit('change', this.image)
+          this.$emit('change', this.file)
         }
       }
     },
