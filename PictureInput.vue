@@ -168,12 +168,15 @@ export default {
         select: 'Select a Photo',
         selected: '<p>Photo successfully selected!</p>',
         fileSize: 'The file size exceeds the limit',
-        fileType: 'This file type is not supported.'
+        fileType: 'This file type is not supported.',
+        prefill: '',
+        zIndex: 50,
       }
     }
   },
   mounted () {
     this.updateStrings()
+    this.prefill = this.strings.prefill;
     if (this.prefill) {
       this.preloadImage(this.prefill, this.prefillOptions)
     }
