@@ -143,8 +143,8 @@ export default {
   },
   watch: {
     prefill () {
-      if (this.prefill) {
-        this.preloadImage(this.prefill, this.prefillOptions)
+      if (this.strings.prefill) {
+        this.preloadImage(this.strings.prefill, this.prefillOptions)
       } else {
         this.removeImage()
       }
@@ -176,9 +176,8 @@ export default {
   },
   mounted () {
     this.updateStrings()
-    this.prefill = this.strings.prefill;
-    if (this.prefill) {
-      this.preloadImage(this.prefill, this.prefillOptions)
+    if (this.strings.prefill) {
+      this.preloadImage(this.strings.prefill, this.prefillOptions)
     }
 
     this.$nextTick(() => {
